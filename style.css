@@ -141,6 +141,10 @@ a {
   margin: 40px auto 0;
 }
 
+.side-cta em {
+  font-size: 1.3rem;
+}
+
 .more::after {
   content: " >";
 }
