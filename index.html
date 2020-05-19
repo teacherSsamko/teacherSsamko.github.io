@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
   <style>
   body {
     font: 20px Montserrat, sans-serif;
@@ -54,7 +55,7 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -66,9 +67,9 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Comroom.net</a></li>
-        <li><a href="#">NAMU</a></li>
-        <li><a href="#">ETC</a></li>
+        <li><a href="#comroom">Comroom.net</a></li>
+        <li><a href="#namu">NAMU</a></li>
+        <li><a href="#etc">ETC</a></li>
       </ul>
     </div>
   </div>
@@ -78,7 +79,18 @@
 <div class="container-fluid bg-1 text-center">
   <h3 class="margin">Who Am I?</h3>
   <img src="images/profile_1.png" class="img-responsive img-circle margin" style="display:inline" alt="Profile" width="350" height="350">
-  <h3>I'm an adventurer</h3>
+  <div class="slide">
+    <h3>I'm a Challenger</h3>
+    <p>
+        이은섭<br>
+        국립대 영어교육과 학사 <br>
+
+    </p>
+    <a href="https://github.com/teacherSsamko" target="_blank"><img src="images/GitHub-Mark-120px-plus.png" alt="github" class="link-logo"></a> 
+    <a href="https://ssamko.tistory.com/category/Django" target="_blank"><img src="images/tistory_logo.png" alt="tistory" class="link-logo"></a>
+    <a href="https://www.youtube.com/c/schoolswat" target="_blank"><img src="images/youtube_logo_bw.png" alt="youtube" class="link-logo"></a>
+    <a href="https://www.instagram.com/ssam_ko/" target="_blank"><img src="images/insta_logo.png" alt="insta" class="link-logo"></a>
+  </div>
 </div>
 
 <!-- Second Container -->
@@ -91,8 +103,8 @@
 </div>
 
 <!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">Where To Find Me?</h3><br>
+<div id="comroom" class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Comroom.net</h3><br>
   <div class="row">
     <div class="col-sm-4">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -113,6 +125,6 @@
 <footer class="container-fluid bg-4 text-center">
   <p>All right reserved 2020. <a href="mailto:teacher.ssamko@gmail.com">teacher.ssamko@gmail.com</a></p> 
 </footer>
-
+<script src="pages.js"></script>
 </body>
 </html>
