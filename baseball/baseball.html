@@ -1,0 +1,108 @@
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+		<title>숫자야구게임- Number Baseball Game</title>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="baseBall.css">
+		
+
+		<!--광고 배너-->
+		
+
+
+	</head>
+	<body>
+		<div class="wholeBody">
+			<div class='howtoBox'>
+				<숫자 야구></br>
+				0~9 사이의 중복되지 않은 숫자 3개.</br>그리고 그 순서를 맞혀보세요.</br></br>
+			</div>
+			<div class="border-green center">
+				<p class="center">HOW TO PLAY</br>
+				<button class="exBtn">3</button>
+				<button class="exBtn">9</button>
+				<button class="exBtn">2</button>
+				</p>
+				<table class="center">
+					<tr>
+						<td>
+							<button class="howBtn">0</button>
+							<button class="howBtn">1</button>
+							<button class="strkBtn">2</button>
+						</td>
+						<td>0B 1S</td>
+						<td>
+							<button class="ballBtn">2</button>
+							<button class="ballBtn">3</button>
+							<button class="ballBtn">9</button>
+						</td>
+						<td>
+							3B 0S
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button class="strkBtn">3</button>
+							<button class="howBtn">4</button>
+							<button class="howBtn">5</button>
+						</td>
+						<td>0B 1S</td>
+						<td>
+							<button class="ballBtn">2</button>
+							<button class="strkBtn">9</button>
+							<button class="ballBtn">3</button>
+						</td>
+						<td>
+							2B 1S
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button class="howBtn">6</button>
+							<button class="howBtn">7</button>
+							<button class="howBtn">8</button>
+						</td>
+						<td>0B 0S</td>
+						<td>
+							<button class="strkBtn">3</button>
+							<button class="strkBtn">9</button>
+							<button class="strkBtn">2</button>
+						</td>
+						<td>
+							OUT!!
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			</br>
+			<div class="center"><input type="button" value="게임 시작" id="newBtn" onClick="newGame()" class='newBtn'></div>
+			<p id="answer"> </p></br>
+	
+			던질 공: <input type="text" id="test" maxlength=3 disabled>
+			<button id='throw' onClick="judge()" class='thrBtn' disabled>던지기!</button></br>
+			
+			<div class="resultBox">
+				시도횟수: <span id = "tryN">0</span><br>
+				던진 공: <span id = "yourBall"></span></br>
+				결과: <span id = "result"></span></br>
+			</div>
+			<h6>*정답을 확인하려면 777을 입력해보세요.</h6>
+
+			<div class="hint">
+				<button id='hintBtn' onClick="showHint()" disabled>힌트(기록)보기</button></br>
+				<p id='hint' hidden></p>
+			</div>
+			
+		</div>
+
+
+
+		
+		<script src="baseBall.js"></script>
+		<!--숫자야구 스크립트-->
+		
+	</body>
+</html>

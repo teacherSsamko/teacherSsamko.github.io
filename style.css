@@ -16,6 +16,9 @@
     -webkit-animation-duration: 1s;
     visibility: visible;
 }
+#baseball-column:hover {
+    background-color: #1abc9c;
+}
 @keyframes slide {
 0% {
     opacity: 0;

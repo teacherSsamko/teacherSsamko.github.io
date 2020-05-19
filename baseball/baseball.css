@@ -1,0 +1,62 @@
+.exBtn {
+    border-radius:4px;
+    font-size: 20px; 
+    background-color:red;
+    color: white;
+    border: none;
+}
+.howBtn {
+    border-radius:4px;
+    font-size: 20px; 
+    background-color:#4caf50;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+.strkBtn{
+    border-radius:4px;
+    font-size: 20px; 
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+.ballBtn{
+    border-radius:4px;
+    font-size: 20px; 
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+#throw {
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+.newBtn {
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.center {
+    margin: auto;
+    
+    text-align: center;
+}
+.border-green {
+    border: 3px solid green;
+}
+.wholeBody{
+    background: #c5e6fc;
+    border-bottom: 5px solid white;
+    border-radius: 5px;
+}
+body{
+    background: #3e525e;
+    
+}
+.resultBox{
+    border-left: 12px solid red;
+}
+.howtoBox{
+    text-align: center;
+}
