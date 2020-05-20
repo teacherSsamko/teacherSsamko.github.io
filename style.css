@@ -24,6 +24,9 @@
 .html {width:10%; background-color: #2196F3; display: inline-block;}
 .javascript {width:14%; background-color: #f44336; display: inline-block;}
 .etc {width:5%; background-color: #808080; display: inline-block;}
+.skill-major {font-size: 2em;}
+.skill-well {font-size: 1.5em;}
+.skill-soso {font-size: 1.2em;}
 .slideanim {visibility:hidden;}
 .slide {
     animation-name: slide;
